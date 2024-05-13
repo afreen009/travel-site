@@ -49,9 +49,8 @@ h1 {
 .destination__div--divider {
     height: 4px;
     width: 16vw;
-    justify-content: center;
+    display: inline-block;
     background-color: black;
-    /* text-align: center; */
 }
 .destination__div--eatingtime {
     height: 40px;

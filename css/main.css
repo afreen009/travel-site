@@ -1,0 +1,82 @@
+
+.hero__section {
+    height: 60vh;
+    width: 100vw;
+    background: #FEFAF5;
+    display: inline-flex;
+    padding: 40px;
+}
+.hero__div--title {
+    color: #335576;
+    width: 30vw;
+}
+
+.hero__div--btn {
+    background-color: #DB7A4E;
+    color: #FFFF;
+    padding: 10px;
+    width: 30%;
+    border-radius: 40px;
+    border-style: none;
+} 
+
+.hero__div--left{
+    width: 50vw;
+    align-content: center;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+}
+.hero__div--right{
+    width: 50vw;
+    align-content: center;
+    text-align: center;
+}
+
+.hero__div--right img {
+    width: 50%;
+}
+
+.recommendations__section h3{
+    padding-top: 40px;
+    padding-left: 80px;
+    color: #335576;
+}
+.recommendations__section {
+    height: 75vh;
+    background-color: white;
+}
+
+.recommendn__div {
+    display: inline-flex;
+    width: 100vw;
+    justify-content: center;
+}
+.recommendn__div img {
+    height: 55vh; 
+    border-radius: 5px;
+    width: 18vw;
+    border: 1px solid black;
+    margin: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 9px -1px rgba(0,0,0,0.25);
+}
+.recommend__div--card{
+    position: relative;
+}
+.recommend__div--tittle {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    transform: translate(-50%, -50%);
+    padding: 0.5rem;
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    bottom: 16px;
+    right: 8px;
+}
+
+
+
